@@ -8,3 +8,131 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header {
+  height:40vh;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat;
+  /*background-color: #1c5380;*/
+}
+
+#main-box {
+  display: flex;
+  flex-flow: row ;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  bottom: 30vh;
+  margin-bottom:-100px;
+}
+
+aside {
+  margin-left: 20px;
+}
+
+aside img {
+  width:360px;
+}
+
+section {
+  display:flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* margin-left:20vh; */
+  /* margin-right:50vh; */
+  padding:30px;
+  padding-bottom: 0;
+  width:250;
+  position: relative;
+  bottom: 1vh;
+}
+
+#section-top {
+  display: flex;
+  flex-flow:row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left:20px;
+  width: 550px;
+  padding-bottom: 25px;
+}
+
+#section-top a {
+  padding: 10px;
+  text-decoration: none;
+  color: lightgray;
+  font-weight: bold;
+  border: 0.1px solid rgba(0,0,0,0.2);
+  box-shadow: 1px 1px 5px 0.5px rgba(0,0,0,0.3);
+  background: rgb(28,83,128);
+  background: linear-gradient(360deg, rgba(28,83,128,0.1) 20%, rgba(255,255,255,0.2) 100%);
+  border-radius: 5%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#section-top img{
+  padding-right: 100px;
+}
+
+
+#section-top a img{
+  padding-right: 10px;
+}
+
+
+#section-main {
+  background-image: url("../images/frame.png");
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height:50vh;
+  width: 200;
+  padding: 0 40px 20px 40px;
+  margin-bottom: 25px;
+  margin-left:20px;
+}
+
+#section-main h1 {
+  color:#06365f;
+  font-size: 2rem;
+
+}
+
+#section-main p {
+  padding: 1px 0;
+}
+
+#section-downloads {
+  margin-left: 40px;
+}
+
+
+/* ----- FOOTER ----- */
+footer {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  margin-bottom:4vh;
+
+}
+
+footer ul {
+  display: flex;
+  flex-flow: row;
+}
+
+footer ul li {
+  list-style: none;
+  padding-right: 10px;
+
+}
+
+footer ul li a {
+  text-decoration: none;
+  color:#1c5380;
+  font-weight: bold;
+}
